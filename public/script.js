@@ -1,7 +1,7 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  host: '/',
+  host: 'https://code-meet-a7et.onrender.com',
   port: '3001'
 })
 const myVideo = document.createElement('video')
